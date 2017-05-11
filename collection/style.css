@@ -33,7 +33,7 @@ body {
 
 
 a {
-  color: black;
+  color: white;
 }
 a:link {
   text-decoration: none;
@@ -41,6 +41,7 @@ a:link {
 a:hover {
   text-decoration: underline;
 }
+
 
 
 #content {
