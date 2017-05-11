@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+}
+.dot {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgb(200, 20, 50);
+}
+
+/*.dot:hover {
+	background-color: rgb (0, 180, 20);
+	cursor: pointer;
+
+}
+*/
+/*.dot: first-of-type {
+	background-color: rgb(0, 180, 20);
+}
+.box special {
+	position: relative;
+	top: -100px;
+	left: 50px;
+}*/
+
+.box {
+	position: absolute;
+	width: 100px;
+	height:100px;
+	top: 100px;
+	left: 10px;
+	background-color: green;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.smalldot {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	top: 20px;
+}
+
+

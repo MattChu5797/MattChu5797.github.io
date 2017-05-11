@@ -1,0 +1,270 @@
+body
+
+h2 { 
+   position: absolute; 
+   top:1210px; 
+   left: 1860px;
+   width: 100%; 
+   font-size: 40px;
+   font-family: Arial;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+h1 {font-family: Arial;
+}
+
+p {font-family: Arial;
+
+}
+
+.imgsize {
+  position: absolute;
+  left: 500px;
+  height: 500px;
+  width: 700px;
+}
+
+.base {
+	position: absolute;
+	z-index: -1;
+	left: 1500px;
+	top: 758px;
+	height: 1000px;
+	display: block;
+  margin: auto;
+}
+.red {
+	position: absolute;
+	z-index: 1;
+	left: 1850px;
+	top: 770px;
+	height: 340px;
+	display: block;
+    margin: auto;
+	}
+#red-element {
+	position: absolute;
+	z-index: 1;
+	left: 1950px;
+	top: 840px;
+	height: .5in;
+  display: none;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: arial;
+}
+
+#red-div:hover #red-element {
+  display: block;
+}
+
+
+.orange {
+	position: absolute;
+	z-index: 1;
+	left: 2135px;
+	top: 897px;
+	height: 328px;
+	}
+#orange-element {
+	position: absolute;
+	z-index: 1;
+	left: 2270px;
+	top: 1000px;
+	height: .5in;
+  display: none;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: arial;
+}
+#orange-div:hover #orange-element {
+  display: block;
+}
+
+
+
+
+.yellow {
+	position: absolute;
+	z-index: 1;
+	left: 2132px;
+	top: 1316px;
+	height: 312px;
+	}
+#yellow-element {
+	position: absolute;
+	z-index: 1;
+	left: 2280px;
+	top: 1400px;
+	height: .5in;
+  display: none;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: arial;
+}
+#yellow-div:hover #yellow-element {
+  display: block;
+}
+
+
+
+
+.green {
+	position: absolute;
+	z-index: 1;
+	left: 1850px;
+	top: 1425px;
+	height: 340px;
+	}
+#green-element {
+	position: absolute;
+	z-index: 1;
+	left: 1940px;
+	top: 1545px;
+	height: .5in;
+  display: none;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: arial;
+}
+#green-div:hover #green-element {
+  display: block;
+}
+
+
+
+
+.blue {
+	position: absolute;
+	z-index: 1;
+	left: 1500px;
+	top: 1310px;
+	height: 320px;
+	}
+#blue-element {
+	position: absolute;
+	z-index: 1;
+	left: 1590px;
+	top: 1395px;
+	height: .5in;
+  display: none;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: arial;
+}
+#blue-div:hover #blue-element {
+  display: block;
+}
+
+
+
+
+.purple {
+	position: absolute;
+	z-index: 1;
+	left: 1505px;
+	top: 890px;
+	height: 320px;
+	}
+#purple-element {
+	position: absolute;
+	z-index: 1;
+	left: 1600px;
+	top: 1000px;
+	height: .5in;
+  display: none;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: arial;
+}
+#purple-div:hover #purple-element {
+  display: block;
+}
+
+
+
+.red{
+    opacity: .0;
+    filter: alpha(opacity=100); 
+   }
+
+.red:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+.yellow{
+    opacity: .0;
+    filter: alpha(opacity=100); 
+   }
+
+.yellow:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+.orange{
+    opacity: .0;
+    filter: alpha(opacity=100); 
+   }
+
+.orange:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+.yellow{
+    opacity: .0;
+    filter: alpha(opacity=100); 
+   }
+
+.yellow:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+.green{
+    opacity: .0;
+    filter: alpha(opacity=100); 
+   }
+
+.green:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+.blue{
+    opacity: .0;
+    filter: alpha(opacity=100); 
+   }
+
+.blue:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+.purple{
+    opacity: .0;
+    filter: alpha(opacity=100); 
+   }
+
+.purple:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+
+
+

@@ -1,0 +1,36 @@
+html, body {
+  margin: 0; padding: 0;
+  margin-top: 50px;
+}
+
+h1, h2, h3 {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+
+  padding: 0;
+  font-weight: normal;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: Georgia, serif;
+  font-size: 34px;
+  text-align: center;
+}
+
+#word-target {
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#source-target {
+  font-style: italic;
+}

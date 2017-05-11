@@ -1,0 +1,40 @@
+
+body { 
+
+	background-color: black;
+
+}
+
+
+h1 {
+	color: #66ffcc;
+	font-size: 48pt;
+}
+h1:hover { 
+	color: Black;
+    background-color: black;
+
+}
+a:link {
+	color: #ffcc80;
+	font-size: 36pt;
+	text-align: center;
+	position: left;
+	
+}
+
+a:visited {
+	color: #ffcc80;
+}
+
+a:hover { 
+	color: Black;
+    background-color: #ffcc80;
+
+}
+
+.custom {
+   cursor: url(http://files.gamebanana.com/img/ico/sprays/5505d4a832ede.png), auto;
+}
+
+

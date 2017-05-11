@@ -1,0 +1,384 @@
+body { 
+	background-color: black;
+}
+
+.img-responsive {
+	width: 180px;
+	height: 180px;
+}
+
+
+html { 
+  overflow-y:scroll; 
+}
+
+body { 
+  background-color: black;
+
+}
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: ; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+   -webkit-transform: scaleX(1.5); 
+  -moz-transform: scaleX(1.5);
+}
+
+
+a {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+#content {
+  overflow: hidden;
+}
+
+#content img { 
+  border-radius:5px; 
+  -moz-border-radius:5px; 
+  -webkit-border-radius:5px; 
+}
+
+/* 3D Flip */
+.image-container {
+  postion: relative;
+  perspective: 300px;
+  width: 164px;
+  height: 164px;
+}
+
+.imageflip {
+  width: 100%;
+  height: 100%;
+  postion: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.imageflip .front {
+  background: transparent;
+}
+
+.imageflip .back {
+  background: transparent;
+  transform: rotateX(180deg);
+}
+
+.imageflip figure {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 25px;
+}
+
+.imageflip:hover {
+  transform:rotateX(180deg);
+}
+
+/*General box styling*/
+
+[class^="Adam"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Ashley"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Diane"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Emily"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Eric"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Joanna"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Kate"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Miguel"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Mikael"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Olivia"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Zarrin"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class^="Tinrey"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+
+[class^="Rainier"]{
+  background: transparent;
+    float: left;
+  width: 204px;
+  height: 190px;
+  margin: 10px 20px;
+  padding: 20px;  
+}
+
+[class="description"]{
+  color: white;
+	font-size:14px;
+  font-family: sans-serif;
+  line-height: 20px;  
+  height: 160px;
+  overflow: hidden;
+  padding-top: 08px;
+  padding-left: 70px;
+}
+
+
+
+@keyframes bounceInLeft {
+  0% {
+    left: -700px;
+  }
+  80% {
+    left: -20px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.bounceInLeft {
+  position: relative;
+  left: -1700px;
+  animation-name: bounceInLeft;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.i1 { 
+    animation-delay:2.2s;
+}
+.i2 {
+  animation-delay:2.4s; 
+}
+.i3 {
+  animation-delay:2.6s;
+}
+
+.i4 {
+  animation-delay:2.6s;
+}
+
+.i5 {
+  animation-delay:2.6s;
+}
+
+
+@media screen and (max-width : 1060px) { 
+.container {
+  width:1060px !important; 
+  }
+  
+    /* logo */
+	#logo {
+    text-align: center;
+}
+  
+  [class^="mens"]{
+    display: none;
+  }
+  
+  .imageflip:hover {
+  transform: none;
+}
+  
+
+  
+  
+@keyframes slide {
+  0% {
+    top: -800px;
+  }
+  80% {
+    top: 20px;
+  }
+  100% {
+    top: 0;
+  }
+}  
+  
+/*Transforms*/  
+#logo span:hover  {
+    cursor: pointer;
+    }
+  
+.slide 					{ animation-delay:3.5s;}  
+  
+#navigation {
+  position: relative;
+  top: -800px;
+  animation-name: slide;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-delay: 1.6s; 
+  animation-fill-mode: forwards;
+}  
+}
+
+/*Mobile screen size 650px and under*/
+@media screen and (max-width : 650px) { 
+.container {
+  width:750px !important; /*Force Full Width*/
+  }
+  
+.nav ul > li {
+  float: none;
+}  
+  
+.nav a {
+  border-bottom: 1px solid #ffffff;    
+  }  
+  
+[class*="product"]{
+  width: 570px;
+  height: 300px;
+}
+  
+.image-container {
+  margin-left: 184px;
+  }
+
+[class="description"]{
+  color: #FFF;
+	font-size:14px;
+  font-family: sans-serif;
+  line-height: 20px;  
+  height: 160px;
+  overflow: hidden;
+  padding-top: 08px;
+}  
+  
+
+  
+/*.button {
+   top: -108px;
+  }
+  */
+body { 
+  background-color: #ccc;
+}  
+  
+#footer-background {
+  width: 650px;
+  }  
+  
+.footer-menu {
+  display: none;
+  }   
+ 
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

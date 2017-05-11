@@ -1,0 +1,21 @@
+html, body {
+	background-color: white;
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif; }
+h1 {
+	text-align: center;
+}
+
+h1, 
+p { color: green;
+	margin: 0;
+	padding: 0; 
+} 
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+ 
+
+

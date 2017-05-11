@@ -1,0 +1,21 @@
+style.css
+
+
+.gifposition {
+position: absolute;
+ right: 40px;
+ top: 30px;
+ width:10px;
+ height: 5px;
+}
+
+
+#gifresult {
+  margin-top: 1px;
+  font-size: 44px;
+  width: 100%;
+  text-align: center;
+}
+
+
+background-color: black;

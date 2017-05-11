@@ -1,0 +1,64 @@
+body {min-height:100%;margin:0;
+background:  linear-gradient(black, indigo, purple, orange, red);
+height: 38 00px;
+font-family:'Russo One', sans-serif;
+}
+
+h1 {
+	text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}
+
+p {
+	text-align: center;
+	color: black;
+	text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}
+h2 {
+	text-align: center;
+	color: white;  
+	text-shadow: 8px 8px 10px #000000;
+}
+
+
+.floated_img
+{
+    float: left;
+}
+
+.luckyluckydice
+{
+	 margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.clean
+{
+	 margin: auto;
+    width: 35%;
+    padding: 10px;
+
+}
+.portriat {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+.imgbox {
+	margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.boxed {
+  border: 2px solid white;
+}
+
+.year {
+	color: yellow;
+}

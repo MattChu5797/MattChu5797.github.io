@@ -1,0 +1,39 @@
+html, body{ margin: 0; }
+.black  {
+	background-color: black;
+	float: left;
+	width:10vw;	
+	height:10vw;
+}
+
+.red {
+
+	background-color: red;
+	float: left;
+	width:10vw;	
+	height:10vw;
+	
+}
+
+.circle {
+	background-color: red; 
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	width:10vw;	
+	height:10vw;
+
+
+}
+
+.circle:hover { background-color: green;
+width:50px;
+	height:50px;
+	border-radius: 50%; 
+	width:10vw;	
+	height:10vw;
+} 
+
+
+
+

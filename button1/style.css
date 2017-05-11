@@ -1,0 +1,71 @@
+body { background-image: url("yachty.gif");
+}
+video{
+  width:800px;
+  height:700px;
+  position: absolute;
+  top: 10px;
+}
+
+h1 {
+	color: white;
+	font-size: 300%;
+	position: center;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+}
+.playpausebutton {
+  background-color: Transparent;
+  position: absolute;
+  top: 600px;
+  left: 10px;
+  width: 360px;
+  height: 358px;
+  background-image: url("lilyatchy2.png");
+  cursor: pointer;
+}
+
+.active {
+  background-color: Transparent;
+  top: 600px;
+  left:10px;
+ background-image: url("LilYachty.png");
+
+}
+
+.nextvideobutton {
+  background-color: Transparent;
+  position: absolute;
+  top: 600px;
+  left: 500px;
+  width: 360px;
+  height: 358px;
+  background-image: url("lilboat.png");
+  cursor: pointer;
+}
+
+.play {
+	color: white;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+	position: absolute;
+	top: 950px;
+	left: 20px;
+}
+
+.skip {
+	color: white;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+	position: absolute;
+	top: 950px;
+	left: 600px;
+}
+/*
+.active2 {
+  background-color: Transparent;
+  position: absolute;
+  top: 600px;
+  left: 500px;
+  width: 360px;
+  height: 358px;
+  background-image: url("LilYachty.png");
+  cursor: pointer;
+}*/

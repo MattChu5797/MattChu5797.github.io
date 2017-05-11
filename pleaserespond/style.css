@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+html {
+  margin: 0;
+  background-color: rgb(204, 255, 204);
+}
+
+body {
+  position: relative;
+  width: 80%;
+  max-width: 1100px;
+  padding: 20px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h1 {
+  position: relative;
+  left: 30.5%;
+  font-size: 24px;
+  margin: 0 0 14px 0;
+  font-weight: normal;
+}
+
+.menu {
+  margin: 5;
+  position: relative;
+  left: 36.5%;
+  width: 15%;
+  margin-right: 4%;
+  padding: 1% 6%;
+  background-color: rgb(255, 204, 230);
+}
+
+.content {
+  position: relative;
+  float: left;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 650px) {
+   .logo {
+    display: none;
+  }
+
+   h1{
+    left:0;
+    text-align: center;
+  }
+
+  .menu {
+    width: 98%;
+    float: none;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .images{
+  	margin: 5;
+  position: relative;
+  left: 36.5%;
+  width: 15%;
+  margin-right: 4%;
+  padding: 1% 6%;
+  }

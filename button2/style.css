@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  background: linear-gradient(45deg, white, black, red, white, black, yellow, 
+  	white, black, green, white, black, blue, white, black, indigo, white, black, 
+  	purple, white, black, pink);
+  background-size: 1800% 1800%;
+  animation: anim-bg-grad 20s ease infinite;
+}
+
+@keyframes anim-bg-grad {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 51%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+
+
+
+#gradient:focus {
+	background: black;
+	top: 200px;
+	left: 600px;
+   height: 200px;
+	width: 200px;
+    outline: none;
+
+}
+
+
+
+#gradient
+{
+position: absolute;
+border-radius: 50%;
+	top: 100px;
+	height: 500px;
+	width: 500px;
+	left: 450px;
+
+}
+
+
+
+

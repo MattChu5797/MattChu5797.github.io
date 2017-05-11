@@ -1,0 +1,60 @@
+html, body {
+	height: 100%;
+font-family: "Roboto", sans-serif; }
+h1, p {
+	margin: 0;
+	padding: 0; 
+} 
+
+h1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+
+	width: 80vw;
+	height: 50px;
+	font-size: 3vw;
+	font-weight: 700;
+	color: rgb(200, 0, 0);
+	text-align: center;
+}
+
+
+p{
+	font-size: 1vw;
+	width: 80vw; 
+	line-height: 26px;
+	font-weight: 400;
+	text-align: center;
+}
+div { 
+	background-color: red;
+	width: 300px;
+	height: 300px;
+/*	margin-bottom: 10px;*/
+
+/*	border: 20px dashed rgb(0,255, 255);
+
+	border-radius: 50%;*/
+/*	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid green;*/
+/*
+ }
+ 
+ #specialDiv { 
+ 	position: relative;
+ 	top: 50px;
+ 	left: 600px;
+
+ }
+ .circle {
+border-radius: 50%; }
+.green { background-color: green; }*/
+
+
