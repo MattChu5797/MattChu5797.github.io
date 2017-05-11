@@ -31,9 +31,13 @@ body {
   -moz-transform: scaleX(1.5);
 }
 
-
-a {
+h1 {
   color: white;
+  font-family: Arial black;
+}
+a {
+  color: black;
+  font-family: Arial;
 }
 a:link {
   text-decoration: none;
@@ -42,7 +46,9 @@ a:hover {
   text-decoration: underline;
 }
 
-
+a:visited {
+    color: white;
+}
 
 #content {
   overflow: hidden;
